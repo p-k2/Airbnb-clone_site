@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flash message</title>
+</head>
+<body>
+  <% if(success && success.length) { %> 
+    <div class="alert  flashmsg alert-success col-6 offset-3" role="alert">
+     
+ <p><%= success %> </p>
+ <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
+ 
+</button>
+</div >
+      <%  } %>
+      <% if(error && error.length) { %> 
+        <div class="alert  flashmsg alert-danger col-6 offset-3" role="alert">
+         
+     <p><%= error %></p>
+     <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
+     
+    </button>
+    </div>
+          <%  } %>
+</body>
+</html>

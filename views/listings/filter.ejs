@@ -1,0 +1,26 @@
+<% layout("layouts/boilerplate.ejs") %>
+  <br>
+
+<div class="row row-cols-lg-3 row-cols-md2 row-cols-sm-1 mt-3">
+  
+    <h4>Category: <%= category%>
+    <p>Here are the listings you filtered: </p>
+    <br>
+
+  
+     <% for(listing of alllistings ){ %></h4>
+    <div class="card listing-card col"  style="width : 20rem ;">
+        
+          <a  class="listing" href="http://localhost:8082/listings/<%= listing._id %>/show">
+            <img src="<%=listing.image.url %>" class="card-img-top " style="height: 20rem;" alt="image" >
+            
+            <div class="card-img-overlay"></div>
+        <div class="card-body">
+          <b class="card-title"><%= listing.title %></b> 
+          <p class="card-text">&#8377; <%= listing.price.toLocaleString("en-IN") %>/ night<i class="tax-info">&nbsp; &nbsp; +18% GST</i></p>
+       
+        </div>
+      </a> 
+    </div>
+    <% }%>
+    </div></div>
