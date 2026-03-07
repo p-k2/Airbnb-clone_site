@@ -27,7 +27,7 @@ module.exports.createListing =  wrapAsync(
 
       await Listing.insertMany(listing ) ;
       
-     res.redirect("http://localhost:8082/listings") ; 
+     res.redirect("/listings") ; 
  
     
 } ) ;
