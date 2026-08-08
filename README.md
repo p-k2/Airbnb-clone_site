@@ -73,9 +73,14 @@ Or:
 node app.js
 6. Open in browser
 http://localhost:8080
+
+
 📸 Screenshots
-<img width="1307" height="745" alt="Screenshot 2026-04-27 193154" src="https://github.com/user-attachments/assets/9158d635-3fdb-4f68-b61b-7faad325f7f3" />
+Home Page
 <img width="1912" height="913" alt="Screenshot 2026-04-27 192904" src="https://github.com/user-attachments/assets/1e451edd-3104-498e-9e9f-0b24021384f5" />
+Listings
+<img width="1307" height="745" alt="Screenshot 2026-04-27 193154" src="https://github.com/user-attachments/assets/9158d635-3fdb-4f68-b61b-7faad325f7f3" />
+Reviews
 <img width="1716" height="890" alt="Screenshot 2026-04-27 193207" src="https://github.com/user-attachments/assets/a9dca5eb-2ef9-445a-a6fd-2053e36006e0" />
 
 🧠 Key Concepts
